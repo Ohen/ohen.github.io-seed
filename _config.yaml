@@ -1,0 +1,29 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+# Site
+title: 타코야끼
+author: Eddie 
+timezone: Asia/Seoul
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+# root: /
+
+# Writing
+relative_link: false
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: ../node_modules/hexo-theme-doc
+
+theme_config:
+  favicon: images/favicon.ico
+
+ignore:
+  # development only: ignore sub node_modules when `npm link hexo-theme-doc`
+  - '**/node_modules/**/*node_modules'
+deploy:
+  type: git   #우리는 github에 발행하기를 하고 있으므로 git으로 합니다.
+  repo: https://github.com/Ohen/ohen.github.io  #1번에서 만든 repo의 주소를 넣어주세요.
