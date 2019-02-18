@@ -1,32 +1,28 @@
-{
-  "logo": {
-    "text": "ohen.github.io",
-    "type": "link",
-    "path": "index.html"
-  },
-  "main": [
-    {
-      "text": "Templete",
-      "type": "label"
-    },
-    {
-      "text": "UI",
-      "type": "link",
-      "path": "templete/ui.html"
-    },
-    {
-      "text": "To HTML",
-      "type": "link",
-      "path": "templete/to-html.html"
-    },
-    {
-      "text": "SUPPORT AND FEEDBACK",
-      "type": "label"
-    },
-    {
-      "text": "Raise an Issue on Github",
-      "type": "link",
-      "path": "https://github.bus.zalan.do/stargate/hexo-stargate-doc-theme-seed/issues/new"
-    }
-  ]
-}
+logo:
+  text: Hexo Doc Theme
+  type: link
+  path: index.html
+main:
+- text: Overview
+  type: link
+  path: index.html
+- text: Posts
+  type: link
+  path: posts/introduction.html
+  children:
+    - text: first
+      type: link
+      path: posts/test.html
+- text: Template
+  type: label
+- text: UI
+  type: link
+  path: template/ui.html
+- text: To HTML
+  type: link
+  path: template/to-html.html
+- text: About
+  type: label
+- text: github
+  type: link
+  path: https://ohen.github.io
