@@ -10,9 +10,9 @@ main:
   type: link
   path: posts/introduction.html
   children:
-    - text: first
+    - text: .bash_profile 사용
       type: link
-      path: posts/test.html
+      path: posts/terminal-bashrc.html
 - text: Template
   type: label
 - text: UI
