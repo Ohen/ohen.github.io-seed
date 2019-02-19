@@ -10,9 +10,12 @@ main:
   type: link
   path: posts/introduction.html
   children:
-    - text: .bash_profile 사용
+    - text: .bash_profile 사용한 bash 설정 하기
       type: link
       path: posts/terminal-bashrc.html
+    - text: zsh & oh-my-zsh 설치 및 테마 변경 하기
+      type: link
+      path: posts/use-zsh.html
 - text: Template
   type: label
 - text: UI
